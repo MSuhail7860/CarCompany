@@ -1,0 +1,63 @@
+.spec-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-normal);
+    cursor: default;
+}
+
+.spec-card:hover {
+    box-shadow: var(--shadow-glow);
+    border-color: rgba(0, 212, 255, 0.3);
+}
+
+.spec-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-sm);
+    color: var(--color-text-primary);
+    flex-shrink: 0;
+}
+
+.spec-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+}
+
+.spec-card .spec-label {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
+.spec-card .spec-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+@media (max-width: 480px) {
+    .spec-card {
+        padding: 1rem;
+    }
+
+    .spec-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .spec-card .spec-value {
+        font-size: 1rem;
+    }
+}

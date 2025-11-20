@@ -1,0 +1,13 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0a0a0a"/>
+  <rect width="1200" height="800" fill="url(#grad3)"/>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="56" fill="#00d4ff" text-anchor="middle" font-weight="bold">Titan SUV</text>
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="24" fill="#c0c0c0" text-anchor="middle">APEX MOTORS</text>
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="16" fill="#707070" text-anchor="middle">Replace with professional car photography</text>
+</svg>
