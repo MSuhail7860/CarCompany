@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import './CarCard.css';
 
 const CarCard = ({ car, index = 0 }) => {
+  console.log("Car object:", car);
   console.log("car.image =", car?.image);
   console.log("Final URL =", `/cars/${car?.image}`);
 
@@ -17,7 +18,7 @@ const CarCard = ({ car, index = 0 }) => {
     >
       <Link to={`/model/${car.id}`} className="car-card-link">
         <div className="car-card-image-wrapper">
-          <img src={`/cars/${car.image}`} alt={car.name} className="car-card-image" />
+          <img src={car ? `${car.image}` : "/cars/default.png"} alt={car?.name} />
           <div className="car-card-overlay"></div>
           <div className="car-card-category">{car.category}</div>
         </div>

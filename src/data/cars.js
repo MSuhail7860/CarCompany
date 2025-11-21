@@ -5,7 +5,7 @@ export const carsData = [
         category: 'Sports',
         tagline: 'Born to dominate',
         description: 'Experience raw power and precision engineering in our flagship sports car. The GT-R combines cutting-edge aerodynamics with unmatched performance.',
-        image: 'gt-r.jpg',
+        image: '/cars/gt-r.jpg',
         price: '$189,000',
         specs: {
             engine: '4.0L Twin-Turbo V8',
@@ -33,7 +33,7 @@ export const carsData = [
         category: 'Luxury Sedan',
         tagline: 'Elegance redefined',
         description: 'The ultimate expression of luxury and comfort. The Phantom delivers a serene driving experience with unparalleled craftsmanship.',
-        image: 'phantom.jpg',
+        image: '/cars/phantom.jpg',
         price: '$245,000',
         specs: {
             engine: '6.0L V12',
@@ -61,7 +61,7 @@ export const carsData = [
         category: 'Electric',
         tagline: 'The future is electric',
         description: 'Zero emissions, infinite possibilities. The Volt represents our commitment to sustainable luxury with groundbreaking electric technology.',
-        image: 'volt.jpg',
+        image: '/cars/volt.jpg',
         price: '$95,000',
         specs: {
             engine: 'Dual Electric Motors',
@@ -89,7 +89,7 @@ export const carsData = [
         category: 'SUV',
         tagline: 'Conquer any terrain',
         description: 'Luxury meets capability in our premium SUV. The Titan is engineered for adventure without compromising on comfort or style.',
-        image: 'titan.jpg',
+        image: '/cars/titan.jpg',
         price: '$125,000',
         specs: {
             engine: '3.5L Twin-Turbo V6',
@@ -117,7 +117,7 @@ export const carsData = [
         category: 'Hypercar',
         tagline: 'Unleash the beast',
         description: 'Our most extreme creation. The Viper pushes the boundaries of automotive engineering with mind-bending performance.',
-        image: 'viper.jpg',
+        image: '/cars/viper.jpg',
         price: '$2,500,000',
         specs: {
             engine: '8.0L Quad-Turbo V12',
@@ -145,7 +145,7 @@ export const carsData = [
         category: 'Convertible',
         tagline: 'Freedom in motion',
         description: 'Experience open-air luxury with our elegant convertible. The Cruiser combines timeless design with modern performance.',
-        image: 'cruiser.jpg',
+        image: '/cars/cruiser.jpg',
         price: '$145,000',
         specs: {
             engine: '3.0L Twin-Turbo I6',
